@@ -1,0 +1,114 @@
+.homeMainFrame {
+    height: 932px;
+    width: 430px;
+    direction: rtl;
+
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.303)), url('./../../../public/pic2.png');
+    /* background-attachment:fixed; */
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+.homeMainContainer {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    height: 100%;
+    margin: 0 2rem;
+    justify-content: space-between;
+}
+
+.headerContainer {
+    width: 100%;
+}
+
+.homeHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeHeaderIcons {
+    justify-content: space-around;
+}
+
+.icon-large {
+    padding: 0 0.5rem;
+    transform: scale(1.7);
+}
+
+.belowContainer {
+    width: 100%;
+    min-height: 400px;
+    color: white;
+}
+
+.movieTime {
+    display: flex;
+    align-items: center;
+}
+
+.HD {
+    margin-right: 5px;
+    padding: 0 2px 0 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+.HomeGenres {
+    display: flex;
+    align-items: center;
+    margin: -2rem 0 0 0;
+}
+
+
+.bulletPoint {
+    background-color: rgb(255, 83, 83);
+    width: 9px;
+    height: 9px;
+    border-radius: 5px;
+    margin: 0.2rem 0.3rem 0 0.3rem;
+}
+
+.HomeBtnWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeBtnFill {
+    width: 170px;
+    height: 40px;
+    background-color: rgb(240, 136, 0);
+    text-align: center;
+    /* align-content: center; */
+    border-radius: 10px;
+    border: 2px solid rgb(240, 136, 0);
+
+}
+
+.outLine {
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.homeTxtdiv {
+    margin-top: 6px;
+}
+
+
+.homeBelowTxt {
+    margin: 1.5rem 0 0 0;
+    text-align: justify;
+}
+
+.homeFooter{
+    background-color: rgba(255, 255, 255, 0.649);
+    width: 200px;
+    height: 4px;
+    margin: 20px 0 20px 0;
+
+}
