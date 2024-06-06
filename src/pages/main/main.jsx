@@ -7,22 +7,22 @@ import { IoMenu } from "react-icons/io5";
 import Slider1img1 from './../../public/banner1.png'
 import Subtract from './../../public/Subtract.png'
 import HomeIcon from './../../public/home-icon.svg'
-import SettingIcon from './../../public/setting-icon.svg'
-import CartIcon from './../../public/cart-icon.svg'
-import HeartIcon from './../../public/heart-icon.svg'
-import PersonIcon from './../../public/silhouette-male-icon.svg'
+import SettingIcon from './../../public/setting-icon.svg.png'
+import CartIcon from './../../public/cart-icon.png'
+import HeartIcon from './../../public/heart-icon.png'
+import PersonIcon from './../../public/silhouette-male-icon.png'
+import logoType from './../../public/logotype.png'
 
 
 import React from 'react'
 
 export default function main() {
     return (
-        <div className="mainMainContainer">
-            <div className="submainWrapper">
+        <div className="frame">
+            <div className="subFrame">
 
-                <div className='mainWrapper'>
-
-                    <div className="UpPart">
+                <div className="headerWrapper">
+                    <div className="header">
 
                         <div className='firstLineIcons'>
                             <div className='mainHeaderIcons'>
@@ -34,7 +34,9 @@ export default function main() {
                         </div>
 
                         <div className='secondLineIcons'>
-                            <h1>movino</h1>
+                            {/* <h1>movino</h1> */}
+                            <img src={logoType} className='' alt="..." />
+
                             <div className='mainLeftIcons'>
                                 <FaRegBell />
                                 <IoMenu />
@@ -50,9 +52,10 @@ export default function main() {
                         </div>
 
                     </div>
+                </div>
 
 
-
+                <div className="mainWrapper">
                     <div className="mainPart">
 
                         <div className="welcomeLine">
@@ -67,7 +70,7 @@ export default function main() {
 
                         <div className="newestAndseeAll">
                             <h8>جدیدترین ها</h8>
-                            <h8>مشاهده همه</h8>
+                            <h8 className='lowOpacityTitle'>مشاهده همه</h8>
                         </div>
 
                         <div className="firstSliderContainer">
@@ -76,7 +79,7 @@ export default function main() {
 
                         <div className="newestAndseeAll">
                             <h8>پرفروش ترین ها</h8>
-                            <h8>مشاهده همه</h8>
+                            <h8 className='lowOpacityTitle'>مشاهده همه</h8>
                         </div>
 
                         <div className="firstSliderContainer">
@@ -85,8 +88,9 @@ export default function main() {
 
                     </div>
 
-
                 </div>
+
+
 
 
 
@@ -100,14 +104,15 @@ export default function main() {
 
                         <div className="lastIcons">
                             <div className="leftLastIcons">
-                                <img src={SettingIcon} className='lastIcon' alt="..." />
-                                <img src={CartIcon} className='lastIcon' alt="..." />
+                                <img src={PersonIcon} className='lastIcon' alst="..." />
+                                <img src={HeartIcon} className='lastIcon' alt="..." />
+
                                 {/* <h4 className="tsth">tst</h4>
                                 <h4 className="tsth">tst</h4> */}
                             </div>
                             <div className="rightLastIcons">
-                                <img src={HeartIcon} className='lastIcon' alt="..." />
-                                <img src={PersonIcon} className='lastIcon' alst="..." />
+                                <img src={CartIcon} className='lastIcon' alt="..." />
+                                <img src={SettingIcon} className='lastIcon' alt="..." />
                                 {/* <h4 className="tsth">tst</h4>
                                 <h4 className="tsth">tst</h4> */}
                             </div>
