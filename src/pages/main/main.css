@@ -16,15 +16,17 @@
 
 .mainWrapper {
   /* margin: 30px 30px 0 30px; */
-  height: 500px;
-  width: 100px;
-  background-color: rgba(125, 125, 125, 0.686);
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.686);
 }
 
 .UpPart {
   background-color: rgba(0, 0, 0, 0.973);
-  width: 100%;
+  /* width: 100%; */
   /* margin-top: 30px; */
+  margin: 30px 30px 30px 30px;
+
 }
 
 .firstLineIcons {
@@ -32,6 +34,7 @@
   justify-content: space-between;
   align-items: center;
   color: rgb(255, 255, 255);
+  margin-bottom: 20px;
 }
 
 .mainHeaderIcons {
@@ -51,6 +54,8 @@
   justify-content: space-between;
   align-items: center;
   color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+
 }
 
 .MainSvgIcons {
@@ -66,9 +71,14 @@
 .mainCategories {
   display: flex;
   justify-content: space-around;
-  font-size: xx-small;
+  font-size: x-small;
   color: rgb(255, 255, 255);
 }
+
+.mainPart{
+    margin: 30px;
+}
+
 
 .welcomeLine {
   display: flex;
@@ -78,10 +88,14 @@
 
 .secondlineTitle {
   color: white;
+  margin-bottom: 10px;
+
 }
 
 .secondlineSub {
   color: rgb(218, 218, 218);
+  margin-bottom: 20px;
+
 }
 
 .firstSliderContainer {
@@ -91,6 +105,7 @@
   display: flex;
   justify-content: center;
   border-radius: 29px;
+
 }
 
 .firstSlider {
@@ -104,6 +119,7 @@
   color: white;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .secondSlider {
@@ -116,6 +132,7 @@
   /* height: 300px; */
   width: 100%;
   background-color: rgb(255, 0, 0);
+  z-index: 999;
 }
 
 .mainFooter {

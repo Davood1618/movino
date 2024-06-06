@@ -22,7 +22,7 @@ export default function main() {
 
                 <div className='mainWrapper'>
 
-                    {/* <div className="UpPart">
+                    <div className="UpPart">
 
                         <div className='firstLineIcons'>
                             <div className='mainHeaderIcons'>
@@ -33,7 +33,6 @@ export default function main() {
                             <h2>9:41</h2>
                         </div>
 
-
                         <div className='secondLineIcons'>
                             <h1>movino</h1>
                             <div className='mainLeftIcons'>
@@ -41,7 +40,6 @@ export default function main() {
                                 <IoMenu />
                             </div>
                         </div>
-
 
                         <div className="mainCategories">
                             <h8>پیشنهادات</h8>
@@ -51,11 +49,11 @@ export default function main() {
                             <h8>انیمیشن ها</h8>
                         </div>
 
-                    </div> */}
+                    </div>
 
 
 
-                    {/* <div className="mainPart">
+                    <div className="mainPart">
 
                         <div className="welcomeLine">
                             <h7 className='secondlineTitle'>به موینو خوش امدید</h7>
@@ -85,7 +83,7 @@ export default function main() {
                             <img src={Slider1img1} className='secondSlider' alt="..." />
                         </div>
 
-                    </div> */}
+                    </div>
 
 
                 </div>
@@ -93,7 +91,6 @@ export default function main() {
 
 
                 <div className="mainmainFooter">
-
 
                     <div className="mainFooter">
 
@@ -116,7 +113,6 @@ export default function main() {
                             </div>
 
                         </div>
-
 
                         <div className="footer">
                             <img src={Subtract} className='footerShape' alt="..." />
