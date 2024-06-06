@@ -105,10 +105,14 @@ export default function main() {
                             <div className="leftLastIcons">
                                 <img src={SettingIcon} className='lastIcon' alt="..." />
                                 <img src={CartIcon} className='lastIcon' alt="..." />
+                                {/* <h4 className="tsth">tst</h4>
+                                <h4 className="tsth">tst</h4> */}
                             </div>
                             <div className="rightLastIcons">
                                 <img src={HeartIcon} className='lastIcon' alt="..." />
                                 <img src={PersonIcon} className='lastIcon' alst="..." />
+                                {/* <h4 className="tsth">tst</h4>
+                                <h4 className="tsth">tst</h4> */}
                             </div>
 
                         </div>
